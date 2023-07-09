@@ -14,7 +14,6 @@
     }
     else{
         invalid.style.display = "none";
-        console.log("clicked")
     }
   })
   })
