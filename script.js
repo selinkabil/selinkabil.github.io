@@ -9,6 +9,7 @@
     if (names.value === "" || email.value === "" || message.value === "") {
       invalid.style.display = "block";
       invalid.innerHTML = "All fields are required"
+      event.preventDefault();
     }
     else{
         invalid.style.display = "none";
