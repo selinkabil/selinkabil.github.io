@@ -175,7 +175,6 @@ main .hero {
   border-bottom: 0px;
   border-image-slice: 1;
   justify-content: space-between;
-  margin: 20px;
 }
 
 .technologies {
@@ -322,7 +321,6 @@ button{
 
   .project-cont {
     grid-template-columns: auto auto;
-    width: 80%;
   }
   .img-sec1 {
     left: 5%;
@@ -332,7 +330,7 @@ button{
     bottom: 0;
   }
   .project-cont > .wrapper:not(:first-child) {
-    width: 40vw;
+    width:35vw;
   }
   .contacts {
     grid-template-columns: auto auto;
