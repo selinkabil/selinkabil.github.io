@@ -7,9 +7,10 @@
     const invalid = document.getElementById('message');
   
     if (names.value === "" || email.value === "" || message.value === "") {
+      event.preventDefault();
       invalid.style.display = "block";
       invalid.innerHTML = "All fields are required"
-      event.preventDefault();
+      
     }
     else{
         invalid.style.display = "none";
